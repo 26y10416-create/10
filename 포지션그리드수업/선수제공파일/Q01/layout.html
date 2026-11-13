@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Q01 3열 상품 목록</title>
+<style>
+*{box-sizing:border-box;margin:0}
+body{font-family:'Noto Sans CJK KR','Noto Sans KR','Malgun Gothic',sans-serif;color:#14213D;background:#fff}
+body{padding:40px}
+h1{margin-bottom:24px}
+.item{height:120px;background:#5B73E8;color:#fff;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700}
+
+/* ▼ 여기부터 문제의 CSS 를 작성하세요 */
+
+.wrap {
+  display: grid;
+  grid-template-rows: repeat(2,100px);
+  grid-template-columns: repeat(3,1fr);
+  gap: 50px;
+}
+
+</style>
+</head>
+<body>
+<h1>인기 상품</h1>
+<div class="wrap">
+  <div class="item">상품 1</div>
+  <div class="item">상품 2</div>
+  <div class="item">상품 3</div>
+  <div class="item">상품 4</div>
+  <div class="item">상품 5</div>
+  <div class="item">상품 6</div>
+</div>
+</body>
+</html>

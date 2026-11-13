@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Q04 맨 위로 버튼</title>
+<style>
+*{box-sizing:border-box;margin:0}
+body{font-family:'Noto Sans CJK KR','Noto Sans KR','Malgun Gothic',sans-serif;color:#14213D;background:#fff}
+body{margin:0}
+.top{background:#14213D;color:#fff;padding:24px 40px;font-size:28px;font-weight:700}
+.long{height:2000px;background:linear-gradient(#E8EEFF,#FDBA74);padding:40px;font-size:24px}
+.top-btn{width:70px;height:70px;border-radius:50%;background:#C2410C;color:#fff;font-size:36px;font-weight:700;display:flex;align-items:center;justify-content:center;text-decoration:none}
+
+/* ▼ 여기부터 문제의 CSS 를 작성하세요 */
+
+.top-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+</style>
+</head>
+<body>
+<header class="top">긴 페이지</header>
+<div class="long">스크롤을 내려 보세요</div>
+<a class="top-btn" href="#">↑</a>
+</body>
+</html>

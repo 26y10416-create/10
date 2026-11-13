@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Q02 사이드바와 본문</title>
+<style>
+*{box-sizing:border-box;margin:0}
+body{font-family:'Noto Sans CJK KR','Noto Sans KR','Malgun Gothic',sans-serif;color:#14213D;background:#fff}
+body{padding:40px}
+.side{background:#14213D;color:#fff;padding:24px;min-height:300px;border-radius:12px;font-size:24px;font-weight:700}
+.content{background:#E8EEFF;padding:24px;min-height:300px;border-radius:12px;font-size:24px;font-weight:700}
+
+/* ▼ 여기부터 문제의 CSS 를 작성하세요 */
+
+.layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+}
+
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside class="side">메뉴</aside>
+  <main class="content">본문</main>
+</div>
+</body>
+</html>
